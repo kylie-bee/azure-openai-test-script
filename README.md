@@ -13,6 +13,8 @@ Create a `.env` file and add the following:
 ```bash
 AZURE_OPENAI_ENDPOINT=https://<your-azure-openai-endpoint>.openai.azure.com
 AZURE_OPENAI_API_KEY=<your-azure-openai-api-key>
+AZURE_OPENAI_EMBEDDING_ENDPOINT=https://<your-azure-openai-embedding-endpoint>.openai.azure.com
+AZURE_OPENAI_EMBEDDING_API_KEY=<your-azure-openai-embedding-api-key>
 ```
 
 ## Usage
