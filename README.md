@@ -26,4 +26,3 @@ python test_azure_openai.py
 ## Notes
 
 - The script uses the Azure OpenAI API to generate a response to the prompt.
-- The script uses the Azure OpenAI API to generate a response to the prompt.
