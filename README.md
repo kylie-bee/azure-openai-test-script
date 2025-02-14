@@ -23,6 +23,18 @@ AZURE_OPENAI_EMBEDDING_API_KEY=<your-azure-openai-embedding-api-key>
 python test_azure_openai.py
 ```
 
+Example output:
+
+```bash
+Testing Completion API...
+Completion test successful!
+Response: Hello, world!
+
+Testing Embedding API...
+Embedding test successful!
+Embedding dimension: 1536
+```
+
 ## Notes
 
 - The script uses the Azure OpenAI API to generate a response to the prompt.
