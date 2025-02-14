@@ -16,7 +16,9 @@ def test_completion(client: AzureOpenAI) -> dict[str, Any]:
     """Test completion API."""
     response = client.chat.completions.create(
         model="gpt-4",  # deployment name
-        messages=[{"role": "user", "content": "Say hello world"}],
+        messages=[
+            {"role": "user", "content": "Please generate a silly joke about computers."}
+        ],
     )
     return response.model_dump()
 

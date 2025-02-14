@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 Create a `.env` file and add the following:
 
-```bash
+```text
 AZURE_OPENAI_ENDPOINT=https://<your-azure-openai-endpoint>.openai.azure.com
 AZURE_OPENAI_API_KEY=<your-azure-openai-api-key>
 AZURE_OPENAI_EMBEDDING_ENDPOINT=https://<your-azure-openai-embedding-endpoint>.openai.azure.com
@@ -25,10 +25,14 @@ python test_azure_openai.py
 
 Example output:
 
-```bash
+```text
 Testing Completion API...
 Completion test successful!
-Response: Hello, world!
+Response: Sure, here's a silly computer joke for you:
+
+Why did the computer go to therapy?
+
+Because it had too many bytes!
 
 Testing Embedding API...
 Embedding test successful!
